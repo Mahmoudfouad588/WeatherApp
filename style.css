@@ -86,3 +86,12 @@
     background: #acd4ce;
   }
 }
+
+@media screen and (max-width: 900px) {
+  div.weath-stu {
+    flex-direction: column;
+    font-size: 12px;
+    align-items: flex-start;
+  }
+}
+
