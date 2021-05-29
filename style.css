@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background: linear-gradient(to bottom, #70daff, #6579fa);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 5%;
+  color: white;
+  font-size: 1.9rem;
+  font-family: "Courgette", cursive;
+}
+
+.icon-location {
+  display: flex;
+  width: 100vw;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.weath-stu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50vw;
+  font-size: 1rem;
+}
+
+@keyframes background-color-clear {
+  0% {
+    background: #70daff;
+  }
+  30% {
+    background: #6579fa;
+  }
+  60% {
+    background: #a350fa;
+  }
+  90% {
+    background: #6579fa;
+  }
+  100% {
+    background: #70daff;
+  }
+}
+
+@keyframes background-color-cloud {
+  0% {
+    background: #b3eaff;
+  }
+  30% {
+    background: #a5affa;
+  }
+  60% {
+    background: #c691fa;
+  }
+  90% {
+    background: #a5affa;
+  }
+  100% {
+    background: #b3eaff;
+  }
+}
+
+@keyframes background-color-rain {
+  0% {
+    background: #acd4ce;
+  }
+  30% {
+    background: #97adba;
+  }
+  60% {
+    background: #adbbe0;
+  }
+  90% {
+    background: #97adba;
+  }
+  100% {
+    background: #acd4ce;
+  }
+}
