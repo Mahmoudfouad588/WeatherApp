@@ -1,31 +1,4 @@
-/*
-fetch(
-  "https://community-open-weather-map.p.rapidapi.com/weather?q=Cairo%2Cegy&lat=300240.2&lon=311419.68&lang=en&units=metric",
-  {
-    method: "GET",
-    headers: {
-      "x-rapidapi-key": "b7eee6b9eamsh25b3956d5f4ebb1p1682e4jsnbb9167ba1908",
-      "x-rapidapi-host": "community-open-weather-map.p.rapidapi.com",
-    },
-  }
-)
-  .then((response) => {
-    console.log(response);
-    let theData = response.json();
-    console.log(theData);
-    console.log("I'M Going CRAZY");
-  })
 
-  .catch((err) => {
-    console.error(err);
-  });
-*/
-//------------------------------
-
-//---------------------------------------- The Right CODE ----------------------------------------
-//---------------------------------------- The Right CODE ----------------------------------------
-//---------------------------------------- The Right CODE ----------------------------------------
-//---------------------------------------- The Right CODE ----------------------------------------
 
 let loc = navigator.geolocation.getCurrentPosition(showPosition);
 
@@ -44,7 +17,7 @@ function showPosition(position) {
     },
   }).then((response) =>
     response
-      .json() // from here we get the right data out of the fuckin promise
+      .json() // grabbing the needed data
       .then((data) => ({
         data: data,
         status: response.status,
